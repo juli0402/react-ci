@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+//const unusedIndex = "ISIS3710"
+//console.log('RenderISIS3710')
 
 ReactDOM.render(
   <React.StrictMode>
