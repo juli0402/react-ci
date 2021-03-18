@@ -14,4 +14,4 @@ jobs:
           echo "Hello ISIS3710"
       - name: Obtener fecha
         run: |
-          --date
+          date
