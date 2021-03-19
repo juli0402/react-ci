@@ -3,11 +3,11 @@ name: Pipeline React
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
-    branches: [main]
+    branches: [master]
     types: [opened, synchronize]
-    
+
 jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-18.04
